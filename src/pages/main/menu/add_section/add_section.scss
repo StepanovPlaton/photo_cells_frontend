@@ -1,0 +1,19 @@
+.add_section_wrapper {
+	.section_add_wrapper {
+		color: rgb(32, 121, 124);
+		opacity: 0.75;
+		font-weight: 400;
+		padding: calc(var(--sf) * 4) calc(var(--sf) * 12);
+		padding-bottom: 0;
+		cursor: pointer;
+	}
+	.new_section {
+		border: none;
+		height: 100%;
+		width: calc(var(--sf) * 200);
+		outline: none;
+		color: rgb(32, 121, 124);
+		padding-top: calc(var(--sf) * 8);
+		font-size: calc(var(--sf) * 18);
+	}
+}

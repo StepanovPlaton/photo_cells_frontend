@@ -1,0 +1,43 @@
+.auth_page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	.auth {
+		width: calc(var(--sf) * 350);
+		height: calc(var(--sf) * 200);
+		border: calc(var(--sf) * 1) solid rgb(52, 194, 199);
+		border-radius: calc(var(--sf) * 15);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+
+		.title {
+			padding: calc(var(--sf) * 16);
+			font-size: calc(var(--sf) * 20);
+			text-align: center;
+		}
+
+		.password {
+			width: 60%;
+			margin: calc(var(--sf) * 16);
+			padding: calc(var(--sf) * 6) calc(var(--sf) * 8);
+			border-radius: calc(var(--sf) * 4);
+			border: calc(var(--sf) * 1) solid rgb(52, 194, 199, 0.5);
+		}
+		.password.wrong {
+			border: calc(var(--sf) * 3) solid red;
+		}
+
+		.login {
+			padding: calc(var(--sf) * 12) calc(var(--sf) * 16);
+			margin: calc(var(--sf) * 12) calc(var(--sf) * 16);
+			background-color: rgb(52, 194, 199);
+			border: calc(var(--sf) * 1) solid rgb(43, 154, 158);
+			border-radius: calc(var(--sf) * 10);
+		}
+	}
+}

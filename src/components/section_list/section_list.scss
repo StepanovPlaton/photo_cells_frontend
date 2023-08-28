@@ -1,0 +1,21 @@
+.section_list {
+	.section_wrapper {
+		display: flex;
+		padding: calc(var(--sf) * 3) 0;
+
+		.section {
+			width: fit-content;
+			height: fit-content;
+			padding: calc(var(--sf) * 6);
+			background-color: rgb(32, 121, 124);
+			border-radius: calc(var(--sf) * 5);
+			font-size: calc(var(--sf) * 16);
+			font-weight: 800;
+			transition: all 0.25s;
+			cursor: pointer;
+		}
+		.section.active {
+			background-color: rgb(52, 194, 199);
+		}
+	}
+}
